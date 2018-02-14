@@ -1,4 +1,5 @@
 import gulp from 'gulp';
+import debug from 'gulp-debug';
 import concat from 'gulp-concat';
 import wrap from 'gulp-wrap';
 import uglify from 'gulp-uglify';

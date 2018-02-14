@@ -16,7 +16,9 @@
     "angular-messages": "^1.6.1",
     "angular-ui-router": "1.0.0-beta.2",
     "angularfire": "^2.0.2",
-    "firebase": "3.3.0"
+    "firebase": "3.3.0",
+    "firebase-tools": "^3.17.4",
+    "gulp-debug": "^3.2.0"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.8",
