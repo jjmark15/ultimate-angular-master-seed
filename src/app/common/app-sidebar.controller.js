@@ -15,6 +15,9 @@ function AppSidebarController() {
   }, {
     label: 'Following',
     icon: 'remove_red_eye'
+  }, {
+    label: 'Work',
+    icon: 'insert_chart'
   }];
 };
 
