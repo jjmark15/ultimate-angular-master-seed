@@ -1,6 +1,12 @@
-function ContactsController ($state) {
+function ContactsController ($filter, $state) {
   var ctrl = this;
-  ctrl.goToContact = function(event) {
+
+  ctrl.$onInit = function () {
+    var contacts = ctrl.contacts; // from firebase array
+    ctrl.filteredContacts = $filter('contactsFilter')(contacts, ctrl.filter);
+  }
+
+  ctrl.goToContact = function (event) {
     $state.go('contact', {
       id: event.contactId
     });
